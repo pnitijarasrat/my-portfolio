@@ -1,0 +1,105 @@
+@import './../var.css';
+
+.Home {
+  background-color: var(--main-header);
+  color: var(--card-color);
+  padding: 100px 30px;
+  height: 100vh;
+}
+
+.Home h1 {
+  font-size: 3em;
+  width: fit-content;
+  line-height: 34px;
+}
+
+.pendulum {
+  animation: wiggle 2000ms infinite 1000ms;
+}
+
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+  .Home {
+    padding: 120px 168px;
+  }
+
+  .Home h1 {
+    font-size: 6em;
+    line-height: 62px;
+  }
+
+  .Home p {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .Home {
+    padding: 141px 221px;
+  }
+
+  .Home h1 {
+    font-size: 10em;
+    line-height: 84px;
+  }
+
+  .Home p {
+    font-size: 2em;
+  }
+}
+
+@keyframes pendulum {
+  0% {
+    transform: translateY(0);
+  }
+
+  30% {
+    transform: rotate(0deg);
+  }
+
+  40% {
+    transform: rotate(20deg);
+  }
+
+  60% {
+    transform: rotate(-20deg);
+  }
+
+  70% {
+    transform: rotate(0deg);
+  }
+
+}
+
+@keyframes wiggle {
+
+  0%,
+  7% {
+    transform: rotateZ(0);
+  }
+
+  15% {
+    transform: rotateZ(-15deg);
+  }
+
+  20% {
+    transform: rotateZ(10deg);
+  }
+
+  25% {
+    transform: rotateZ(-10deg);
+  }
+
+  30% {
+    transform: rotateZ(6deg);
+  }
+
+  35% {
+    transform: rotateZ(-4deg);
+  }
+
+  40%,
+  100% {
+    transform: rotateZ(0);
+  }
+}

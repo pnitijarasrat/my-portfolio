@@ -1,0 +1,13 @@
+@import './../var.css';
+
+.SkillItem {
+  background-color: var(--card-color);
+  border: 8px solid var(--main-header);
+  border-radius: 20px;
+  padding: 20px 0;
+  margin: 0 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--main-header);
+}

@@ -1,0 +1,86 @@
+@import './../var.css';
+
+.Project {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  margin: 87% 0;
+  text-shadow: -1px -1px 0 var(--main-header), 1px -1px 0 var(--main-header), -1px 1px 0 var(--main-header), 1px 1px 0 var(--main-header);
+  letter-spacing: 10px;
+}
+
+.Project span {
+  animation: smallScreenMove 2.6s infinite;
+}
+
+.Project span:nth-child(0) {
+  animation-delay: 1s;
+}
+
+.Project span:nth-child(1) {
+  animation-delay: 1.2s;
+}
+
+.Project span:nth-child(2) {
+  animation-delay: 1.4s;
+}
+
+.Project span:nth-child(3) {
+  animation-delay: 1.6s;
+}
+
+.Project span:nth-child(4) {
+  animation-delay: 1.8s;
+}
+
+.Project span:nth-child(5) {
+  animation-delay: 2s;
+}
+
+.Project span:nth-child(6) {
+  animation-delay: 2.2s;
+}
+
+.Project span:nth-child(7) {
+  animation-delay: 2.4s;
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+  .Project {
+    margin: 35% 0;
+    font-size: 6em;
+    ;
+  }
+}
+
+@media (min-width: 1600px) {
+  .Project {
+    margin: 35% 0;
+    font-size: 6em;
+  }
+}
+
+@keyframes smallScreenMove {
+
+  0% {
+    /* opacity: 0; */
+    color: var(--main-header);
+  }
+
+  20% {
+    /* opacity: 1; */
+    color: var(--bg-color);
+  }
+
+  80% {
+    /* opacity: 1; */
+    color: var(--bg-color);
+
+  }
+
+  100% {
+    /* opacity: 0; */
+    color: var(--main-header);
+  }
+
+}

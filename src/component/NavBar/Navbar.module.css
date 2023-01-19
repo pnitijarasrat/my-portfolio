@@ -1,0 +1,31 @@
+@import './../var.css';
+
+.Navbar {
+  background-color: var(--main-header);
+  color: var(--bg-color);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+  font-weight: 400;
+  z-index: 2;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+@media (min-width: 1280px) {
+  .Navbar {
+    background-color: var(--main-header);
+    color: var(--bg-color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 250px;
+    font-weight: 400;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+  }
+}

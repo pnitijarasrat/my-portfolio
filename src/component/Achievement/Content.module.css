@@ -1,0 +1,47 @@
+@import './../var.css';
+
+.AContent {
+  text-align: center;
+  width: 40vw;
+}
+
+.AContent h1,
+.AContent p {
+  color: var(--main-header);
+}
+
+.AContainer div img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+.AContainer {
+  margin-bottom: 20%;
+}
+
+.AContainer .imgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+  .AContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .AContainer .imgDiv,
+  .AContainer .Content {
+    width: 40%;
+  }
+
+  .AContent h1 {
+    font-size: 3em;
+  }
+
+  .AContent p {
+    font-size: 1.5em;
+  }
+
+}

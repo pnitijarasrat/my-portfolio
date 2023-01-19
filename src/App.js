@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './component/NavBar/Navbar';
+import Progress from './component/ProgressBar/ProgressBar';
+import Home from './component/HomePage/Home';
+import AboutMe from './component/AboutMe/AboutMe';
+import Skill from './component/Skill/Skill';
+import SkillCarousel from './component/Skill/SkillCarousel';
+import Project from './component/Project/Project';
+import ProjectContent from './component/Project/ProjectContent';
+import Achievement from './component/Achievement/Achievement';
+import AchievementContent from './component/Achievement/AchievementContent';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Progress />
+      <Home />
+      <AboutMe />
+      <Skill />
+      <SkillCarousel />
+      <Project />
+      <ProjectContent />
+      <Achievement />
+      <AchievementContent />
+    </>
   );
 }
 

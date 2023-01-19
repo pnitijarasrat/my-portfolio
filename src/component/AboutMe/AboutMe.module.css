@@ -1,0 +1,46 @@
+@import './../var.css';
+
+.AboutMe {
+  background-color: var(--card-color);
+  border-radius: 30px;
+  padding: 20px;
+  margin: 120px 20px;
+}
+
+.AboutMe h1 {
+  color: var(--main-header);
+}
+
+.AboutMe p {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+@media (min-width: 1280px) and (max-width: 1600px) {
+  .AboutMe {
+    padding: 100px;
+    margin: 240px 90px;
+  }
+
+  .AboutMe h1 {
+    font-size: 3em;
+  }
+
+  .AboutMe p {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .AboutMe {
+    padding: 100px;
+    margin: 240px 262px;
+  }
+
+  .AboutMe h1 {
+    font-size: 4em;
+  }
+
+  .AboutMe p {
+    font-size: 2em;
+  }
+}
