@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.adc23a90.css",
+    "main.js": "/my-portfolio/static/js/main.a40f7c79.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/typescriptCer.png": "/my-portfolio/static/media/typescriptCer.6c2038701c9e2ea5a427.png",
+    "static/media/MyLedger.png": "/my-portfolio/static/media/MyLedger.8a6ee4a04611d2112be7.png",
+    "static/media/tutorFinder.png": "/my-portfolio/static/media/tutorFinder.6d48847f4c32483d974c.png",
+    "static/media/gameboy.png": "/my-portfolio/static/media/gameboy.1491b2be6417cacef07a.png",
+    "static/media/problemsolving.png": "/my-portfolio/static/media/problemsolving.759de94bfd8595709413.png",
+    "static/media/revicons.eot": "/my-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/my-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/my-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/my-portfolio/index.html",
+    "main.adc23a90.css.map": "/my-portfolio/static/css/main.adc23a90.css.map",
+    "main.a40f7c79.js.map": "/my-portfolio/static/js/main.a40f7c79.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adc23a90.css",
+    "static/js/main.a40f7c79.js"
+  ]
+}
