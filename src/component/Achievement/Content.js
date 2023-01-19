@@ -3,6 +3,8 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
+
+
 const AContent = (props) => {
   useEffect(() => {
     Aos.init()
