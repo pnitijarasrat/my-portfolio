@@ -1,0 +1,45 @@
+@import './../var.css';
+
+.Intro {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--main-header);
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: introAnimation 1.5s ease-in 1s;
+  color: var(--card-color);
+}
+
+.Intro .remove {
+  opacity: 0;
+}
+
+
+@keyframes introAnimation {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  40% {
+    opacity: 1;
+    scale: 1.5;
+  }
+
+  80% {
+    opacity: 0;
+    transform: scale(150);
+  }
+
+  100% {
+    opacity: 0;
+  }
+
+
+
+
+}

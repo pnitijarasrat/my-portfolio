@@ -20,7 +20,7 @@
 
 @media (min-width: 1280px) and (max-width: 1600px) {
   .Home {
-    padding: 120px 168px;
+    padding: 80px 168px;
   }
 
   .Home h1 {
@@ -35,7 +35,7 @@
 
 @media (min-width: 1600px) {
   .Home {
-    padding: 141px 221px;
+    padding: 60px 221px;
   }
 
   .Home h1 {

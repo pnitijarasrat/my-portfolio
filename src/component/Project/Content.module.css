@@ -53,3 +53,24 @@
   }
 
 }
+
+@media (min-width: 1600px) {
+  .Container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Container .imgDiv,
+  .Container .Content {
+    width: 40%;
+  }
+
+  .Content h1 {
+    font-size: 3em;
+  }
+
+  .Content p {
+    font-size: 1.5em;
+  }
+
+}
